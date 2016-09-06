@@ -1,0 +1,14 @@
+<div class="data-holder">
+    <section class="stock-high-and-low-widget row">
+        <div class="company-name col-xs-3">{{ company }}</div>
+        <div class="price-high col-xs-3">{{ (high === 0) ? 'N/A' : high | currency  }}</div>
+        <div class="price-low col-xs-3">{{ (low === 0) ? 'N/A' : low | currency }}</div>
+        <div class="dd-holder col-xs-3">
+          <select ng-model="period" ng-change="updateValue()">
+            <option value="D">Day</option>
+            <option value="M">Month</option>
+            <option value="Y">Year</option>
+          </select>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "II Test",
+  "version": "1.0.0",
+  "authors": [
+    "Luke Stankus <stankusl@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "jquery": "~1.10.2",
+    "angular": "^1.5.6",
+    "angular-ui-router": "^0.3.1",
+    "angular-bootstrap": "^2.0.1",
+    "angular-sanitize": "*"
+  }
+}
