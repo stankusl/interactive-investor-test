@@ -60,7 +60,7 @@
                     // Init
                     function getValues(company, period) {
 
-                        var API_Url = 'http://www.iii.co.uk/iii-perfchart-data';
+                        var API_Url = 'http://188.166.154.233/public/proxy/ii';
                         var deferred = $q.defer();
 
                         $http.get(API_Url + '/' + company + '/' + period)
