@@ -28,7 +28,7 @@
                     company: '@',
                 },
                 link: function(scope, ngModel) {
-                    scope.period = 'D';
+                    scope.period = 'M';
                     scope.high = 0;
                     scope.low = 0;
 
