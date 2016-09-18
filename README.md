@@ -9,6 +9,3 @@
 * run command ```npm install```
 * run command ```bower install```
 * run command ```gulp```
-
-### Link to demo
-http://178.62.62.245
